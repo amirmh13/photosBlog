@@ -319,9 +319,9 @@
 
 	$(window).scroll(function () {
 		changeStyleByScroll()
-		console.log(1);
-		
 		// checkForTopScrollIcon()
 	})
+
+	if( window.location.href.indexOf('/fa') != -1) $('body').addClass('persian')
 
  });
