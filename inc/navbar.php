@@ -43,7 +43,7 @@
 
             <div class="col-6 col-xl-2 text-right">
                 <div class="d-none d-xl-inline-block">
-                    <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                    <!-- <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                         <li>
                             <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                         </li>
@@ -56,7 +56,8 @@
                         <li>
                             <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <?php dynamic_sidebar('myPhoto') ?>
                 </div>
 
                 <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a

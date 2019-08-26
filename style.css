@@ -375,6 +375,15 @@ a:hover {
 }
 
 /* Navbar */
+
+#polylang-2 ul {
+  display: flex;
+}
+
+#polylang-2 ul li {
+  margin: 0 5px;
+}
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 99;
@@ -1794,6 +1803,7 @@ a:hover {
 .image-gradient figure {
   position: relative;
   overflow: hidden;
+  height: 350px;
 }
 
 .image-gradient figure:before {
@@ -1923,6 +1933,5 @@ a:hover {
 
 .content-container img {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
 }

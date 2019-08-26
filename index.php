@@ -131,69 +131,38 @@
           <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <a class="image-gradient" href="single.html">
               <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/img_1.jpg" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri() ?>/images/kashi.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Autumn Leaf</h3>
-                <span>5 photos / Nature</span>
+                <h3>Plate sample</h3>
+                <span>5 photos</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <a class="image-gradient" href="single.html">
               <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/img_2.jpg" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri() ?>/images/carpet.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Sea Creatures</h3>
-                <span>5 photos / Nature</span>
+                <h3>Carpet sample</h3>
+                <span>5 photos</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <a class="image-gradient" href="single.html">
               <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/img_3.jpg" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri() ?>/images/restaurant.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Enjoying Deep Sea</h3>
-                <span>5 photos / Nature</span>
+                <h3>Restaurent sample</h3>
+                <span>5 photos</span>
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-            <a class="image-gradient" href="single.html">
-              <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/img_4.jpg" alt="" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h3>Beautiful Beach</h3>
-                <span>5 photos / Nature</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-            <a class="image-gradient" href="single.html">
-              <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/img_5.jpg" alt="" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h3>Laughter is Science</h3>
-                <span>5 photos / Nature</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-            <a class="image-gradient" href="single.html">
-              <figure>
-                <img src="<?php echo get_template_directory_uri() ?>/images/img_6.jpg" alt="" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h3>Knot Tying</h3>
-                <span>5 photos / Nature</span>
-              </div>
-            </a>
-          </div>
+        
+     
         </div>
       </div>
     </div>
