@@ -7,7 +7,7 @@
         <div class="row align-items-center">
 
             <div class="col-6 col-xl-2">
-                <h1 class="mb-0"><a href="<?php bloginfo('url')?>" class="text-black h2 mb-0">fotograp<span
+                <h1 class="mb-0"><a href="<?php bloginfo('url')?>" class="text-white h2 mb-0">fotograp<span
                             class="text-primary">.</span></a></h1>
             </div>
             <div class="col-10 col-md-8 d-none d-xl-block">
@@ -54,7 +54,7 @@
                             <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                         </li>
                         <li>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
                         </li>
                     </ul>
                 </div>

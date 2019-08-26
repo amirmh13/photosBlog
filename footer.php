@@ -4,7 +4,7 @@
           <div class="col-md-12 d-md-flex align-items-center" data-aos="fade">
             <h2 class="text-black mb-5 mb-md-0 text-center text-md-left">Need a photographer?</h2>
             <div class="ml-auto text-center text-md-left">
-              <a href="contact.html" class="btn btn-danger py-3 px-5 rounded">Contact Me</a>
+              <a  href="<?php bloginfo('url')?>/contact-us" class="btn btn-danger py-3 px-5 rounded">Contact Me</a>
             </div>
           </div>
         </div>
@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-5">
-              <h3 class="footer-heading mb-4">About Fotograp</h3>
+              <h3 class="footer-heading mb-4">About You</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque,
                 consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima
                 minus odio!</p>
@@ -52,11 +52,11 @@
           </div>
 
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h3 class="footer-heading mb-4">Follow Me</h3>
+            <h3 class="footer-heading mb-4">Follow Us</h3>
 
             <div>
               <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
               <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
               <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
             </div>
