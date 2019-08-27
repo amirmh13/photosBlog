@@ -10,6 +10,11 @@
 // 	'before_title'  => '<h2 class="widgettitle">',
 // 	'after_title'   => '</h2>' );
 
+add_action( 'after_setup_theme', 'my_theme_setup' );
+function my_theme_setup(){
+    load_theme_textdomain( 'photosBlog', get_template_directory() . '/languages' );
+}
+
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
 function theme_slug_widgets_init() {
     register_sidebar( array(
