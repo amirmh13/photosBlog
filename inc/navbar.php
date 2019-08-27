@@ -33,7 +33,7 @@
                         </li>
                         <?php if(get_locale() == 'en_US'): ?>
                         <li class="<?php if(is_page_template( 'services.php' )) echo 'active'?>">
-                            <a href="<?php bloginfo('url')?>/services">Services</a>
+                            <a href="<?php bloginfo('url')?>/products">Products</a>
                         </li>
                         <li class="<?php if(is_page_template( 'about.php' )) echo 'active'?>">
                             <a href="<?php bloginfo('url')?>/about-us-">About</a>
@@ -45,7 +45,7 @@
 
                         <?php if(get_locale() == 'fa_IR'): ?>
                         <li class="<?php if(is_page_template( 'services.php' )) echo 'active'?>">
-                            <a href="<?php bloginfo('url')?>/services">سروریس ها</a>
+                            <a href="<?php bloginfo('url')?>/services">محصولات</a>
                         </li>
                         <li class="<?php if(is_page_template( 'about.php' )) echo 'active'?>">
                             <a href="<?php bloginfo('url')?>/about-us-2">درباره ما</a>

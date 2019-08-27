@@ -48,7 +48,7 @@
                 <img src="<?php echo get_template_directory_uri() ?>/images/kashi.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Plate sample</h3>
+                <h3>Dish sample</h3>
                 <span>5 photos</span>
               </div>
             </a>
@@ -115,11 +115,11 @@
       </div>
     </div>
 
-    <div class="site-section" data-aos="fade">
+    <div id="products" class="site-section" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 ">
-            <h2 class="site-section-heading text-center">My Specialties</h2>
+            <h2 class="site-section-heading text-center">Products</h2>
           </div>
         </div>
         <div class="row">

@@ -21,12 +21,12 @@
     <?php include('inc/navbar.php') ?>
 
     <div class="site-blocks-cover overlay inner-page-cover"
-      style="background-image: url('<?php echo get_template_directory_uri() ?>/images/hero_bg_1.jpg');"
+      style="background-image: url('<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');"
       data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" data-aos="fade-up">
-            <h1>My Services</h1>
+            <h1>Products</h1>
           </div>
         </div>
       </div>
@@ -36,57 +36,52 @@
 
     <div class="site-section">
       <div class="container">
-        <div class="row text-center justify-content-center mb-5">
+        <!-- <div class="row text-center justify-content-center mb-5">
           <div class="col-12 " data-aos="fade-up">
             <h2 class="site-section-heading text-center">My Specialties</h2>
           </div>
-        </div>
+        </div> -->
         <div class="row">
-          <div class="col-md-6">
-            <div class="site-block-half d-lg-flex" data-aos="fade-up" data-aos-delay="100">
-              <div class="image"
-                style="background-image: url('<?php echo get_template_directory_uri() ?>/images/img_1.jpg');"></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <a class="image-gradient" href="<?php bloginfo('url')?>/products/dishes">
+              <figure>
+                <img src="<?php echo get_template_directory_uri() ?>/images/kashi.jpg" alt="" class="img-fluid">
+              </figure>
               <div class="text">
-                <h3>Nature Photography</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident voluptate
-                  tenetur illo.</p>
+                <h3>Dish sample</h3>
+                <!-- <span>5 photos</!--> 
               </div>
-            </div>
-            <div class="site-block-half d-lg-flex" data-aos="fade-up" data-aos-delay="200">
-              <div class="image"
-                style="background-image: url('<?php echo get_template_directory_uri() ?>/images/img_3.jpg');"></div>
-              <div class="text">
-                <h3>Portrait Photography</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident voluptate
-                  tenetur illo.</p>
-              </div>
-            </div>
+            </a>
           </div>
-          <div class="col-md-6">
-            <div class="site-block-half d-lg-flex" data-aos="fade-up" data-aos-delay="300">
-              <div class="image"
-                style="background-image: url('<?php echo get_template_directory_uri() ?>/images/img_2.jpg');"></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <a class="image-gradient" href="<?php bloginfo('url')?>/products/carpets">
+              <figure>
+                <img src="<?php echo get_template_directory_uri() ?>/images/carpet.jpg" alt="" class="img-fluid">
+              </figure>
               <div class="text">
-                <h3>Wedding Photography</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident voluptate
-                  tenetur illo.</p>
+                <h3>Carpet sample</h3>
+                <!-- <span>5 photos</!-->
               </div>
-            </div>
-            <div class="site-block-half d-lg-flex" data-aos="fade-up" data-aos-delay="400">
-              <div class="image"
-                style="background-image: url('<?php echo get_template_directory_uri() ?>/images/img_4.jpg');"></div>
-              <div class="text">
-                <h3>Food & Drink Photography</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident voluptate
-                  tenetur illo.</p>
-              </div>
-            </div>
+            </a>
           </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <a class="image-gradient" href="<?php bloginfo('url')?>/products/restaurants">
+              <figure>
+                <img src="<?php echo get_template_directory_uri() ?>/images/restaurant.jpg" alt="" class="img-fluid">
+              </figure>
+              <div class="text">
+                <h3>Restaurent sample</h3>
+                <!-- <span>5 photos</!-->
+              </div>
+            </a>
+          </div>
+
+
         </div>
       </div>
     </div>
 
-    <div class="site-section" data-aos="fade">
+    <!-- <div class="site-section" data-aos="fade">
       <div class="container-fluid">
 
         <div class="row justify-content-center">
@@ -157,7 +152,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <?php get_footer(); ?>

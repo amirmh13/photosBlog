@@ -26,7 +26,7 @@ if (have_posts()) {
     <?php include('inc/navbar.php') ?>
 
     <div class="site-blocks-cover overlay inner-page-cover"
-      style="background-image: url('<?php echo get_template_directory_uri() ?>/images/hero_bg_2.jpg');"
+      style="background-image: url('<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');"
       data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center">
