@@ -20,13 +20,15 @@
                         </li>
 
                         <li class="<?php if(is_page_template( 'services.php' )) echo 'active'?>">
-                            <a href="<?php bloginfo('url')?>/products"><?php _e('Products','photosBlog') ?></a>
+                            <a href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/products'; else echo '/محصولات'; ?>">
+                            <?php _e('Products','photosBlog') ?>
+                            </a>
                         </li>
                         <li class="<?php if(is_page_template( 'about.php' )) echo 'active'?>">
-                            <a href="<?php bloginfo('url')?>/about-us-"><?php _e('About Us','photosBlog') ?></a>
+                            <a href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/about-us'; else echo '/درباره-ما';?>"><?php _e('About Us','photosBlog') ?></a>
                         </li>
                         <li class="<?php if(is_page_template( 'contact.php' )) echo 'active'?>">
-                            <a href="<?php bloginfo('url')?>/contact-us"><?php _e('Contact Us','photosBlog') ?></a>
+                            <a href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/contact-us'; else echo '/تماس-با-ما';?>"><?php _e('Contact Us','photosBlog') ?></a>
                         </li>
 
 

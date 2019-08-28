@@ -43,7 +43,7 @@
         </div> -->
         <div class="row">
           <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <a class="image-gradient" href="<?php bloginfo('url')?>/products/dishes">
+            <a class="image-gradient" href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/dishes'; else echo '/نمونه-کارهای-بشقاب'; ?>">
               <figure>
                 <img src="<?php echo get_template_directory_uri() ?>/images/kashi.jpg" alt="" class="img-fluid">
               </figure>
@@ -54,7 +54,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <a class="image-gradient" href="<?php bloginfo('url')?>/products/carpets">
+            <a class="image-gradient" href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/carpets'; else echo '/نمونه-کارهای-فرش'; ?>">
               <figure>
                 <img src="<?php echo get_template_directory_uri() ?>/images/carpet.jpg" alt="" class="img-fluid">
               </figure>
@@ -65,7 +65,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <a class="image-gradient" href="<?php bloginfo('url')?>/products/restaurants">
+            <a class="image-gradient" href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/restaurants'; else echo '//نمونه-کارهای-رستوران'; ?>">
               <figure>
                 <img src="<?php echo get_template_directory_uri() ?>/images/restaurant.jpg" alt="" class="img-fluid">
               </figure>

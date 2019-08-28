@@ -30,10 +30,10 @@
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled p-0">
-                  <li><a href="#"><?php _e('Home', 'photosBlog') ?></a></li>
-                  <li><a href="#"><?php _e('Products', 'photosBlog') ?></a></li>
-                  <li><a href="#"><?php _e('About Us', 'photosBlog') ?></a></li>
-                  <li><a href="#"><?php _e('Contact Us', 'photosBlog') ?></a></li>
+                  <li><a href="<?php bloginfo('url')?>"><?php _e('Home', 'photosBlog') ?></a></li>
+                  <li><a href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/products'; else echo '/محصولات'; ?>"><?php _e('Products', 'photosBlog') ?></a></li>
+                  <li><a href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/about-us'; else echo '/درباره-ما';?>"><?php _e('About Us', 'photosBlog') ?></a></li>
+                  <li><a href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/contact-us'; else echo '/تماس-با-ما';?>"><?php _e('Contact Us', 'photosBlog') ?></a></li>
                 </ul>
               </div>
               <!-- <div class="col-md-6 col-lg-6">
