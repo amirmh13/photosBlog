@@ -3,7 +3,7 @@
 
 <?php get_header(); ?>
 
-<body>
+<body class="<?php if( get_locale() == 'fa_IR') echo 'persian' ?>">
 
   <div class="site-wrap">
 
@@ -26,7 +26,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" data-aos="fade-up">
-            <h1>Products</h1>
+            <h1><?php _e('Products','photosBlog') ?></h1>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
                 <img src="<?php echo get_template_directory_uri() ?>/images/kashi.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Dish sample</h3>
+                <h3><?php _e('Dish sample','photosBlog') ?></h3>
                 <!-- <span>5 photos</!--> 
               </div>
             </a>
@@ -59,7 +59,7 @@
                 <img src="<?php echo get_template_directory_uri() ?>/images/carpet.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Carpet sample</h3>
+                <h3><?php _e('Carpet sample','photosBlog') ?></h3>
                 <!-- <span>5 photos</!-->
               </div>
             </a>
@@ -70,7 +70,7 @@
                 <img src="<?php echo get_template_directory_uri() ?>/images/restaurant.jpg" alt="" class="img-fluid">
               </figure>
               <div class="text">
-                <h3>Restaurent sample</h3>
+                <h3><?php _e('Restaurent sample','photosBlog') ?></h3>
                 <!-- <span>5 photos</!-->
               </div>
             </a>

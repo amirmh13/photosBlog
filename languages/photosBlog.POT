@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-28 15:35+0430\n"
+"POT-Creation-Date: 2019-08-28 15:51+0430\n"
 "PO-Revision-Date: 2019-08-27 15:18+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -29,31 +29,31 @@ msgstr ""
 msgid "Order Now"
 msgstr ""
 
-#: footer.php:22 footer.php:37 inc/navbar.php:26
+#: footer.php:21 footer.php:35 inc/navbar.php:26
 msgid "About Us"
 msgstr ""
 
-#: footer.php:24 index.php:170 index.php:178 index.php:185
+#: footer.php:23 index.php:170 index.php:178 index.php:185
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed"
 msgstr ""
 
-#: footer.php:31
+#: footer.php:29
 msgid "Navigations"
 msgstr ""
 
-#: footer.php:35 inc/navbar.php:19
+#: footer.php:33 inc/navbar.php:19
 msgid "Home"
 msgstr ""
 
-#: footer.php:36 inc/navbar.php:23 index.php:105
+#: footer.php:34 inc/navbar.php:23 index.php:105 services.php:29
 msgid "Products"
 msgstr ""
 
-#: footer.php:38 inc/navbar.php:29
+#: footer.php:36 inc/navbar.php:29
 msgid "Contact Us"
 msgstr ""
 
-#: footer.php:55
+#: footer.php:53
 msgid "Follow Us"
 msgstr ""
 
@@ -115,6 +115,18 @@ msgstr ""
 
 #: index.php:148
 msgid "Category 4"
+msgstr ""
+
+#: services.php:51
+msgid "Dish sample"
+msgstr ""
+
+#: services.php:62
+msgid "Carpet sample"
+msgstr ""
+
+#: services.php:73
+msgid "Restaurent sample"
 msgstr ""
 
 #. Template Name of the plugin/theme

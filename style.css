@@ -1962,3 +1962,7 @@ a:hover {
   display: flex;
   margin: 20px auto;
 }
+
+.lg {
+  direction: ltr;
+}

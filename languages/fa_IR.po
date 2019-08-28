@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-28 15:35+0430\n"
-"PO-Revision-Date: 2019-08-28 15:35+0430\n"
+"POT-Creation-Date: 2019-08-28 15:51+0430\n"
+"PO-Revision-Date: 2019-08-28 15:51+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -30,11 +30,11 @@ msgstr "برای سفارش محصولات"
 msgid "Order Now"
 msgstr "کلیک کنید"
 
-#: footer.php:22 footer.php:37 inc/navbar.php:26
+#: footer.php:21 footer.php:35 inc/navbar.php:26
 msgid "About Us"
 msgstr "درباره ما"
 
-#: footer.php:24 index.php:170 index.php:178 index.php:185
+#: footer.php:23 index.php:170 index.php:178 index.php:185
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
 "tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra "
@@ -44,23 +44,23 @@ msgstr ""
 "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از "
 "طراحان گرافیک است. "
 
-#: footer.php:31
+#: footer.php:29
 msgid "Navigations"
 msgstr "منوی اصلی"
 
-#: footer.php:35 inc/navbar.php:19
+#: footer.php:33 inc/navbar.php:19
 msgid "Home"
 msgstr "صفحه اصلی"
 
-#: footer.php:36 inc/navbar.php:23 index.php:105
+#: footer.php:34 inc/navbar.php:23 index.php:105 services.php:29
 msgid "Products"
 msgstr "محصولات"
 
-#: footer.php:38 inc/navbar.php:29
+#: footer.php:36 inc/navbar.php:29
 msgid "Contact Us"
 msgstr "تماس با ما"
 
-#: footer.php:55
+#: footer.php:53
 msgid "Follow Us"
 msgstr "ما را دنبال کنید"
 
@@ -244,6 +244,18 @@ msgstr "دسته بندی ۳"
 #: index.php:148
 msgid "Category 4"
 msgstr "دسته بندی ۴"
+
+#: services.php:51
+msgid "Dish sample"
+msgstr "نمونه کارهای بشقاب"
+
+#: services.php:62
+msgid "Carpet sample"
+msgstr "نمونه کارهای فرش"
+
+#: services.php:73
+msgid "Restaurent sample"
+msgstr "نمونه کارهای رستوران"
 
 #. Template Name of the plugin/theme
 #, fuzzy
