@@ -1,46 +1,266 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-27 15:16+0430\n"
-"PO-Revision-Date: 2019-08-28 13:16+0430\n"
+"POT-Creation-Date: 2019-08-28 15:35+0430\n"
+"PO-Revision-Date: 2019-08-28 15:35+0430\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"Last-Translator: \n"
-"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/navbar.php:18
-msgid "Home"
-msgstr "صفحه اصلی"
+#: footer.php:5
+msgid "To order products"
+msgstr "برای سفارش محصولات"
 
-#: inc/navbar.php:23
-msgid "Products"
-msgstr "محصولات"
+#: footer.php:7
+msgid "Order Now"
+msgstr "کلیک کنید"
 
-#: inc/navbar.php:26
+#: footer.php:22 footer.php:37 inc/navbar.php:26
 msgid "About Us"
 msgstr "درباره ما"
 
-#: inc/navbar.php:29
+#: footer.php:24 index.php:170 index.php:178 index.php:185
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra "
+"accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel "
+"elit scelerisque. In egestas erat imperdiet sed"
+msgstr ""
+"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از "
+"طراحان گرافیک است. "
+
+#: footer.php:31
+msgid "Navigations"
+msgstr "منوی اصلی"
+
+#: footer.php:35 inc/navbar.php:19
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: footer.php:36 inc/navbar.php:23 index.php:105
+msgid "Products"
+msgstr "محصولات"
+
+#: footer.php:38 inc/navbar.php:29
 msgid "Contact Us"
 msgstr "تماس با ما"
 
-#: index.php:44
+#: footer.php:55
+msgid "Follow Us"
+msgstr "ما را دنبال کنید"
+
+#: functions.php:21
+msgid "MyPhoto"
+msgstr ""
+
+#: functions.php:23
+msgid "myPhoto"
+msgstr ""
+
+#: index.php:26
 msgid "Rasouoifar's Art Gallery"
 msgstr "گالری رسولیفر"
 
 #: index.php:44
-msgid "Have you ever tried to have a piece of heaven in your home? Next to your favorite parts of house as an especial and unique decoration? So it can be a hand-made tile! Fully hand-made art work which had been produced just for you and no one else in the world could have the exact tile which you have got! That's why it's special. Artists in Rasoulifar's art gallery do their best to create an exquisite hand-made tiles which can be lasted forever… If to know more about us keep going..."
-msgstr "آیا تاکنون سعی کرده اید که یک قطعه بهشت ​​در خانه خود داشته باشید؟ در کنار قسمت های مورد علاقه منزل خود به عنوان یک دکوراسیون خاص و بی نظیر؟ بنابراین می تواند یک کاشی دست ساز باشد! یک اثر هنری کاملاً دست ساز که فقط برای شما تولید شده است و هیچ کس دیگری در جهان نمی تواند کاشی دقیقی از آن داشته باشد! به همین دلیل خاص است. هنرمندان در گالری هنری رسولیفر تمام تلاش خود را می کنند تا کاشی هایی با دست ساخته نفیس بسازیم که می تواند برای همیشه ادامه یابد ... اگر اطلاعات بیشتری در مورد ما بدانید ادامه دهید ..."
+msgid ""
+"Have you ever tried to have a piece of heaven in your home? Next to your "
+"favorite parts of house as an especial and unique decoration? So it can be a "
+"hand-made tile! Fully hand-made art work which had been produced just for "
+"you and no one else in the world could have the exact tile which you have "
+"got! That's why it's special. Artists in Rasoulifar's art gallery do their "
+"best to create an exquisite hand-made tiles which can be lasted forever… If "
+"to know more about us keep going..."
+msgstr ""
+"آیا تاکنون سعی کرده اید که یک قطعه بهشت ​​در خانه خود داشته باشید؟ در کنار "
+"قسمت های مورد علاقه منزل خود به عنوان یک دکوراسیون خاص و بی نظیر؟ بنابراین "
+"می تواند یک کاشی دست ساز باشد! یک اثر هنری کاملاً دست ساز که فقط برای شما "
+"تولید شده است و هیچ کس دیگری در جهان نمی تواند کاشی دقیقی از آن داشته باشد! "
+"به همین دلیل خاص است. هنرمندان در گالری هنری رسولیفر تمام تلاش خود را می "
+"کنند تا کاشی هایی با دست ساخته نفیس بسازیم که می تواند برای همیشه ادامه "
+"یابد ... اگر اطلاعات بیشتری در مورد ما بدانید ادامه دهید ..."
 
-#: index.php:62
+#: index.php:60
 msgid "What are hand-made tiles?"
 msgstr "کاشی های دست ساز چیست؟"
 
-#: index.php:64
-msgid "Iran is a land of history and culture, as everyone knows it's not a slogan- it is the origin of hand crafts and has more than two hundred types of art and crafts. Seven-Colored tiles (Seven as a symbol of Perfection, but not necessarily using 7 colors) –known as Haft Rang Tiles- are one of the most eye-catching parts of Iranian art which dates back to old centuries and can be found in most of ancient monuments as the signs of long-lasted civilization of this country that overwhelm all visitors by delicate colors. The drawing of tiles demonstrate variety and value of religious and spiritual heritage of Iranian ancestors which had been represented by Persian traditional artists and architectures. As a unique piece of art, based on individual tastes and wishes, blank tiles and adobe are drawn, matched in color and pattern demanded by customers, architectures and decorators, each totally hand-made tile fired in a special type of kilns and then will be glazed. So, producing tiles from classical to ultra-modern ones are what we are able to do. Also for painted dishes glazes are carefully applied with a brush resulting in timeless, distinctive and sophisticated works of art. What are hand-made tiles good for? Most of seven-colored tiles are inspired by classical designs that can express both sophistication and natural simplicity, but they can cover all discriminating tastes. You can bring artistic inspiration from cultures around the world to your projects. They can be used as a decoration or piece of historical art work and maybe as a durable and memorable souvenir of Persia. If you want many different variations of hue within a specific color for a beautiful and unique decoration it can be a good choice to be selected and won't be found elsewhere..."
-msgstr "ایران سرزمین تاریخ و فرهنگ است ، زیرا همه می دانند که این شعار نیست بلکه منشأ صنایع دستی است و بیش از دویست نوع هنر و صنایع دستی دارد. کاشی های هفت رنگ (هفت رنگ به عنوان نمادی از کمال ، اما لزوماً از 7 رنگ استفاده نمی شود) - کاشی های هفت رنگ معروف است - یکی از چشم نوازترین بخش های هنر ایرانی است که قدمت آن به قرون گذشته باز می گردد و در بیشتر آنها یافت می شود. آثار باستانی به عنوان نشانه‌های تمدن دیرپای این کشور که با رنگهای ظریف همه بازدیدکنندگان را تحت الشعاع قرار داده است. نقاشی کاشی نشانگر تنوع و ارزش میراث دینی و معنوی اجداد ایرانی است که توسط هنرمندان و معماران سنتی ایرانی نمایان شده بودند. به عنوان یک اثر هنری منحصر به فرد ، بر اساس سلیقه ها و خواسته های فردی ، کاشی های خالی و ادوبی ترسیم می شوند ، با رنگ و الگوی مورد نیاز مشتریان ، معماران و دکوراتورها مطابقت دارند ، هر کاشی کاملاً دست ساز در نوع خاصی از کوره ها شلیک می شود و سپس لعاب دار شود بنابراین ، تولید کاشی از نمونه های کلاسیک تا فوق مدرن همان کاری است که ما قادر به انجام آن هستیم. همچنین برای ظروف نقاشی شده ، لعاب ها با قلم مو به دقت مورد استفاده قرار می گیرند که منجر به آثار هنری بی انتها ، متمایز و پیشرفته می شود. کاشی های دست ساز برای چه مواردی مناسب هستند؟ بیشتر کاشی های هفت رنگ از طرح های کلاسیک الهام گرفته شده اند که می توانند هم پیچیدگی و هم سادگی طبیعی را بیان کنند ، اما می توانند تمام سلیقه های تبعیض آمیز را پوشش دهند. شما می توانید الهام هنری از فرهنگ های سراسر جهان را به پروژه های خود منتقل کنید. از آنها می توان به عنوان دکوراسیون یا تکه ای از آثار هنری تاریخی و شاید به عنوان یک سوغات ماندگار و به یاد ماندنی ایران استفاده کرد. اگر می خواهید تغییرات مختلفی از رنگ در یک رنگ خاص برای یک دکوراسیون زیبا و منحصر به فرد وجود داشته باشد ، می تواند انتخاب مناسبی باشد و در جای دیگری یافت نشود ... "
+#: index.php:62
+msgid ""
+"Iran is a land of history and culture, as everyone knows it's not a slogan- "
+"it is the origin of hand crafts and has more than two hundred types of art "
+"and crafts. Seven-Colored tiles (Seven as a symbol of Perfection, but not "
+"necessarily using 7 colors) –known as Haft Rang Tiles- are one of the most "
+"eye-catching parts of Iranian art which dates back to old centuries and can "
+"be found in most of ancient monuments as the signs of long-lasted "
+"civilization of this country that overwhelm all visitors by delicate colors. "
+"The drawing of tiles demonstrate variety and value of religious and "
+"spiritual heritage of Iranian ancestors which had been represented by "
+"Persian traditional artists and architectures. As a unique piece of art, "
+"based on individual tastes and wishes, blank tiles and adobe are drawn, "
+"matched in color and pattern demanded by customers, architectures and "
+"decorators, each totally hand-made tile fired in a special type of kilns and "
+"then will be glazed. So, producing tiles from classical to ultra-modern ones "
+"are what we are able to do. Also for painted dishes glazes are carefully "
+"applied with a brush resulting in timeless, distinctive and sophisticated "
+"works of art. What are hand-made tiles good for? Most of seven-colored tiles "
+"are inspired by classical designs that can express both sophistication and "
+"natural simplicity, but they can cover all discriminating tastes. You can "
+"bring artistic inspiration from cultures around the world to your projects. "
+"They can be used as a decoration or piece of historical art work and maybe "
+"as a durable and memorable souvenir of Persia. If you want many different "
+"variations of hue within a specific color for a beautiful and unique "
+"decoration it can be a good choice to be selected and won't be found "
+"elsewhere..."
+msgstr ""
+"ایران سرزمین تاریخ و فرهنگ است ، زیرا همه می دانند که این شعار نیست بلکه "
+"منشأ صنایع دستی است و بیش از دویست نوع هنر و صنایع دستی دارد. کاشی های هفت "
+"رنگ (هفت رنگ به عنوان نمادی از کمال ، اما لزوماً از 7 رنگ استفاده نمی شود) - "
+"کاشی های هفت رنگ معروف است - یکی از چشم نوازترین بخش های هنر ایرانی است که "
+"قدمت آن به قرون گذشته باز می گردد و در بیشتر آنها یافت می شود. آثار باستانی "
+"به عنوان نشانه‌های تمدن دیرپای این کشور که با رنگهای ظریف همه بازدیدکنندگان "
+"را تحت الشعاع قرار داده است. نقاشی کاشی نشانگر تنوع و ارزش میراث دینی و "
+"معنوی اجداد ایرانی است که توسط هنرمندان و معماران سنتی ایرانی نمایان شده "
+"بودند. به عنوان یک اثر هنری منحصر به فرد ، بر اساس سلیقه ها و خواسته های "
+"فردی ، کاشی های خالی و ادوبی ترسیم می شوند ، با رنگ و الگوی مورد نیاز "
+"مشتریان ، معماران و دکوراتورها مطابقت دارند ، هر کاشی کاملاً دست ساز در نوع "
+"خاصی از کوره ها شلیک می شود و سپس لعاب دار شود بنابراین ، تولید کاشی از "
+"نمونه های کلاسیک تا فوق مدرن همان کاری است که ما قادر به انجام آن هستیم. "
+"همچنین برای ظروف نقاشی شده ، لعاب ها با قلم مو به دقت مورد استفاده قرار می "
+"گیرند که منجر به آثار هنری بی انتها ، متمایز و پیشرفته می شود. کاشی های دست "
+"ساز برای چه مواردی مناسب هستند؟ بیشتر کاشی های هفت رنگ از طرح های کلاسیک "
+"الهام گرفته شده اند که می توانند هم پیچیدگی و هم سادگی طبیعی را بیان کنند ، "
+"اما می توانند تمام سلیقه های تبعیض آمیز را پوشش دهند. شما می توانید الهام "
+"هنری از فرهنگ های سراسر جهان را به پروژه های خود منتقل کنید. از آنها می توان "
+"به عنوان دکوراسیون یا تکه ای از آثار هنری تاریخی و شاید به عنوان یک سوغات "
+"ماندگار و به یاد ماندنی ایران استفاده کرد. اگر می خواهید تغییرات مختلفی از "
+"رنگ در یک رنگ خاص برای یک دکوراسیون زیبا و منحصر به فرد وجود داشته باشد ، می "
+"تواند انتخاب مناسبی باشد و در جای دیگری یافت نشود ... "
+
+#: index.php:76
+msgid "The artists…"
+msgstr "هنرمندان… "
+
+#: index.php:78
+msgid ""
+"More than 10 trained craft-women gathered together to create an exquisite "
+"line of painted tiles. Their designs are inspired by classical pattern or "
+"modern ones which are synthesis of enduring art traditions a modern "
+"aesthetic. Some artists are skilled in painting on the clay dishes which can "
+"be used not only as a decorative object, also as a food-serving plate. As "
+"far us being glazed, they are washable and resist the heat."
+msgstr ""
+"بیش از 10 هنرآموز آموزش دیده برای ایجاد خط نفیس از کاشی های نقاشی گرد هم جمع "
+"شدند. طراحی آنها از الگوی کلاسیک یا الگوهای مدرن الهام گرفته شده است که سنتز "
+"سنت های هنری ماندگار و زیبایی شناسی مدرن است. برخی از هنرمندان در نقاشی روی "
+"ظروف سفالی مهارت دارند که می توانند نه تنها به عنوان یک تزئین تزئینی بلکه به "
+"عنوان یک بشقاب پذیرایی از غذا نیز مورد استفاده قرار گیرند. تا آنجا که ما "
+"لعاب داریم ، آنها قابل شستشو هستند و در برابر گرما مقاومت می کنند."
+
+#: index.php:85
+msgid "About me…"
+msgstr "درمورد من…"
+
+#: index.php:87
+msgid ""
+"My name is Maryam Rasoulifar. I am the gallerist of Rasoulifar Art Gallery. "
+"I am an artist too. I studied Graphic as a student in school and University, "
+"it was my fate to choose Seven-Colored tiles as a B.A thesis which changed "
+"my life and I fell in love with this art. Painting tiles. Using lots of "
+"colors in graceful manner, being able to be a creator, to create enduring "
+"decorative objects, combining two main elements of nature (soil and fire) "
+"with a spectrum glazed colors and the last but the most to revere my "
+"country's past glory in art. All the blank tiles are painted (no matter "
+"which pattern or text) and then high-fired in special kilns. When I did so "
+"it makes me feel proud of transferring such simple materials to beautiful, "
+"memorable and unique hand-made tiles that can be touched by countless souls. "
+"As I wished to be an entrepreneurship so I gathered some artists women, we "
+"tried and succeed at it. We participated in different exhibitions to reflect "
+"what the women of our country are able to create (the list is below). We do "
+"our best to perpetuate this branch of Iranian art and leave an indelible art "
+"work for our posterities. Surely Art of Our Hands will shine in Your Eyes. "
+"1001 Underglaze bowls (Austria) Hand-Crafts Exhibition in Reza Abbasi Museum "
+"(Seyed Khandan, Tehran: March, 2016) 1001 plates (Surface Art Space Hadis "
+"Mall, Tehran: March 02, 2018) The 30th National Crafts Exhibition (Tehran "
+"International Exhibition Center: August 25-31, 2018) Achieving the Quality "
+"Certification of the Cultural Heritage, Handicrafts and Tourism Organization "
+"in 2018"
+msgstr ""
+"نام من مریم رسولی فر است. من نگارنده گالری هنر رسولی فر هستم. من هم یک "
+"هنرمند هستم من به عنوان یک دانش آموز در مدرسه و دانشگاه گرافیک را مطالعه "
+"کردم ، این سرنوشت من بود که هفت کاشی رنگی را به عنوان پایان نامه B.A انتخاب "
+"کنم که زندگی من را تغییر داد و من عاشق این هنر شدم. کاشی های نقاشی استفاده "
+"از بسیاری از رنگ ها به شکلی دلپذیر ، داشتن یک آفریننده ، ایجاد اشیاء تزئینی "
+"ماندگار ، ترکیب دو عنصر اصلی طبیعت (خاک و آتش) با رنگ های لعاب طیف و آخرین "
+"اما بیشترین چیزی که باعث تکریم جلال گذشته کشور من می شود. هنر تمام کاشی های "
+"خالی نقاشی شده اند (فرقی نمی کند از کدام الگوی یا متن) و سپس در کوره های "
+"مخصوص شلیک شود. وقتی این کار را کردم ، باعث می شود احساس انتقال من از این "
+"قبیل مواد ساده به کاشی های دست ساز زیبا ، به یاد ماندنی و منحصر به فرد را که "
+"با روحهای بی شماری قابل لمس هستند ، احساس غرور کند. همانطور که آرزو داشتم "
+"کارآفرینی شوم بنابراین برخی از هنرمندان زن را جمع کردم ، در این کار تلاش "
+"کردیم و موفق شدیم. ما در نمایشگاه های مختلف شرکت کردیم تا آنچه را که زنان "
+"کشور ما می توانند ایجاد کنند ، بازگو کنیم (لیست زیر است). ما تمام تلاش خود "
+"را برای تحکیم این شاخه از هنر ایرانی می کنیم و یک اثر هنری غیرقابل انکار را "
+"برای فرزندان خود به جای می گذاریم. مطمئناً هنر دستان ما در چشمان شما می "
+"درخشد. 1001 نمایشگاه صنایع دستی کاسه ای (اتریش) در موزه رضا عباسی (سید "
+"خندان ، تهران: مارس ، 2016) 1001 صفحه (فضای هنری فضای حدیس بازار ، تهران: 02 "
+"مارس 2018) سی امین نمایشگاه ملی صنایع دستی (مرکز نمایشگاه های بین المللی "
+"تهران : 25-31 آگوست 2018) دستیابی به مجوز کیفیت سازمان میراث فرهنگی ، صنایع "
+"دستی و گردشگری در سال 2018"
+
+#: index.php:114
+msgid "Category 1"
+msgstr "دسته بندی ۱"
+
+#: index.php:116 index.php:126 index.php:139 index.php:150
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt"
+msgstr ""
+"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از "
+"طراحان گرافیک است. "
+
+#: index.php:124
+msgid "Category 2"
+msgstr "دسته بندی۲"
+
+#: index.php:137
+msgid "Category 3"
+msgstr "دسته بندی ۳"
+
+#: index.php:148
+msgid "Category 4"
+msgstr "دسته بندی ۴"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+#| msgid "About Us"
+msgid "About Us */ ?>"
+msgstr "درباره ما"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contact Us */ ?>"
+msgstr "تماس با ما"
+
+#. Template Name of the plugin/theme
+msgid "productTemplate */ ?>"
+msgstr "قالب برگه جدید"
+
+#. Template Name of the plugin/theme
+msgid "Services */ ?>"
+msgstr ""

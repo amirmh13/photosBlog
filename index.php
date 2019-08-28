@@ -41,9 +41,9 @@
           </div>
           <div class="col-md-6 d-flex align-items-center px-5">
             <p class="text-justify">
-            <?php _e("Have you ever tried to have a piece of heaven in your home? Next to your favorite parts of house as an especial and unique decoration? So it can be a hand-made tile! Fully hand-made art work which had been produced just for you and no one else in the world could have the exact tile which you have got! That's why it's special. Artists in Rasoulifar's art gallery do their best to create an exquisite hand-made tiles which can be lasted forever… If to know more about us keep going...", 'photosBlog')
+              <?php _e("Have you ever tried to have a piece of heaven in your home? Next to your favorite parts of house as an especial and unique decoration? So it can be a hand-made tile! Fully hand-made art work which had been produced just for you and no one else in the world could have the exact tile which you have got! That's why it's special. Artists in Rasoulifar's art gallery do their best to create an exquisite hand-made tiles which can be lasted forever… If to know more about us keep going...", 'photosBlog')
                ?>
-              
+
             </p>
 
             <!-- <p class="mt-5 mb-3">Follow Me</p>
@@ -75,7 +75,7 @@
           <div class="col-md-6 d-flex flex-column justify-content-center px-5 py-3">
             <h3 class="text-black mb-3"><?php _e('The artists…', 'photosBlog') ?></h3>
             <p class="text-justify">
-              <?php _e('More than 10 trained craft-women gathered together to create an exquisite line of painted tiles. Their designs are inspired by classical pattern or modern ones which are synthesis of enduring art traditions a modern aesthetic. Some artists are skilled in painting on the clay dishes which can be used not only as a decorative object, also as a food-serving plate. As far us being glazed, they are washable and resist the heat.') ?>
+              <?php _e('More than 10 trained craft-women gathered together to create an exquisite line of painted tiles. Their designs are inspired by classical pattern or modern ones which are synthesis of enduring art traditions a modern aesthetic. Some artists are skilled in painting on the clay dishes which can be used not only as a decorative object, also as a food-serving plate. As far us being glazed, they are washable and resist the heat.','photosBlog') ?>
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@
           <div class="col-md-6 d-flex flex-column justify-content-center padding-<?php echo get_locale() ?> py-3">
             <h3 class="text-black mb-3"><?php _e('About me…', 'photosBlog') ?></h3>
             <p class="text-justify">
-              <?php _e("My name is Maryam Rasoulifar. I am the gallerist of Rasoulifar Art Gallery. I am an artist too. I studied Graphic as a student in school and University, it was my fate to choose Seven-Colored tiles as a B.A thesis which changed my life and I fell in love with this art. Painting tiles. Using lots of colors in graceful manner, being able to be a creator, to create enduring decorative objects, combining two main elements of nature (soil and fire) with a spectrum glazed colors and the last but the most to revere my country's past glory in art. All the blank tiles are painted (no matter which pattern or text) and then high-fired in special kilns. When I did so it makes me feel proud of transferring such simple materials to beautiful, memorable and unique hand-made tiles that can be touched by countless souls. As I wished to be an entrepreneurship so I gathered some artists women, we tried and succeed at it. We participated in different exhibitions to reflect what the women of our country are able to create (the list is below). We do our best to perpetuate this branch of Iranian art and leave an indelible art work for our posterities. Surely Art of Our Hands will shine in Your Eyes. 1001 Underglaze bowls (Austria) Hand-Crafts Exhibition in Reza Abbasi Museum (Seyed Khandan, Tehran: March, 2016) 1001 plates (Surface Art Space Hadis Mall, Tehran: March 02, 2018) The 30th National Crafts Exhibition (Tehran International Exhibition Center: August 25-31, 2018) Achieving the Quality Certification of the Cultural Heritage, Handicrafts and Tourism Organization in 2018") ?>
+              <?php _e("My name is Maryam Rasoulifar. I am the gallerist of Rasoulifar Art Gallery. I am an artist too. I studied Graphic as a student in school and University, it was my fate to choose Seven-Colored tiles as a B.A thesis which changed my life and I fell in love with this art. Painting tiles. Using lots of colors in graceful manner, being able to be a creator, to create enduring decorative objects, combining two main elements of nature (soil and fire) with a spectrum glazed colors and the last but the most to revere my country's past glory in art. All the blank tiles are painted (no matter which pattern or text) and then high-fired in special kilns. When I did so it makes me feel proud of transferring such simple materials to beautiful, memorable and unique hand-made tiles that can be touched by countless souls. As I wished to be an entrepreneurship so I gathered some artists women, we tried and succeed at it. We participated in different exhibitions to reflect what the women of our country are able to create (the list is below). We do our best to perpetuate this branch of Iranian art and leave an indelible art work for our posterities. Surely Art of Our Hands will shine in Your Eyes. 1001 Underglaze bowls (Austria) Hand-Crafts Exhibition in Reza Abbasi Museum (Seyed Khandan, Tehran: March, 2016) 1001 plates (Surface Art Space Hadis Mall, Tehran: March 02, 2018) The 30th National Crafts Exhibition (Tehran International Exhibition Center: August 25-31, 2018) Achieving the Quality Certification of the Cultural Heritage, Handicrafts and Tourism Organization in 2018",'photosBlog') ?>
             </p>
           </div>
           <div class="col-md-6 p-0">
@@ -102,7 +102,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 ">
-            <h2 class="site-section-heading text-center">Products</h2>
+            <h2 class="site-section-heading text-center"><?php _e('Products','photosBlog') ?></h2>
           </div>
         </div>
         <div class="row">
@@ -111,10 +111,9 @@
               <div class="image"
                 style="background-image: url('<?php echo get_template_directory_uri() ?>/images/carpet.jpg');"></div>
               <div class="text">
-                <h3>Category 1</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident
-                  voluptate
-                  tenetur illo.
+                <h3><?php _e('Category 1', 'photosBlog') ?></h3>
+                <p>
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt','photosBlog') ?>
                 </p>
               </div>
             </div>
@@ -122,10 +121,9 @@
               <div class="image"
                 style="background-image: url('<?php echo get_template_directory_uri() ?>/images/kashi.jpg');"></div>
               <div class="text">
-                <h3>Category 2</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident
-                  voluptate
-                  tenetur illo.
+                <h3><?php _e('Category 2', 'photosBlog') ?></h3>
+                <p>
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt','photosBlog') ?>
                 </p>
               </div>
             </div>
@@ -136,10 +134,9 @@
                 style="background-image: url('<?php echo get_template_directory_uri() ?>/images/IMG_0002.jpg');">
               </div>
               <div class="text">
-                <h3>Category 3</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident
-                  voluptate
-                  tenetur illo.
+                <h3><?php _e('Category 3', 'photosBlog') ?></h3>
+                <p>
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt','photosBlog') ?>
                 </p>
               </div>
             </div>
@@ -148,10 +145,9 @@
                 style="background-image: url('<?php echo get_template_directory_uri() ?>/images/top-section-bg.jpg');">
               </div>
               <div class="text">
-                <h3>Category 4</h3>
-                <p>Sunt nesciunt repellat molestias vitae nostrum aliquid laudantium quo voluptatem provident
-                  voluptate
-                  tenetur illo.
+                <h3><?php _e('Category 4', 'photosBlog') ?></h3>
+                <p>
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt','photosBlog') ?>
                 </p>
               </div>
             </div>
@@ -170,23 +166,24 @@
             <div class="nonloop-block-13 owl-carousel">
               <div class="block-testimony">
                 <img src="<?php echo get_template_directory_uri() ?>/images/person_1.jpg" alt="Image" class="img-fluid">
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident suscipit dicta repellat,
-                  sit aut at nulla quam sed, neque voluptatum deserunt, vero ipsum natus sint culpa illo. Vel, sed,
-                  assumenda.&rdquo;</p>
+                <p>&ldquo;
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed', 'photosBlog') ?>
+                  &rdquo;
+                </p>
                 <p class="small">&mdash; Marrygrace Woodland</p>
               </div>
               <div class="block-testimony">
                 <img src="<?php echo get_template_directory_uri() ?>/images/person_2.jpg" alt="Image" class="img-fluid">
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident suscipit dicta repellat,
-                  sit aut at nulla quam sed, neque voluptatum deserunt, vero ipsum natus sint culpa illo. Vel, sed,
-                  assumenda.&rdquo;</p>
+                <p>&ldquo;
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed', 'photosBlog') ?>
+                  &rdquo;</p>
                 <p class="small">&mdash; Jean Doe</p>
               </div>
               <div class="block-testimony">
                 <img src="<?php echo get_template_directory_uri() ?>/images/person_3.jpg" alt="Image" class="img-fluid">
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident suscipit dicta repellat,
-                  sit aut at nulla quam sed, neque voluptatum deserunt, vero ipsum natus sint culpa illo. Vel, sed,
-                  assumenda.&rdquo;</p>
+                <p>&ldquo;
+                  <?php _e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed', 'photosBlog') ?>
+                  &rdquo;</p>
                 <p class="small">&mdash; Ben Smith</p>
               </div>
             </div>
