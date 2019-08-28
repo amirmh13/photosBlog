@@ -104,7 +104,7 @@
   <script src="<?php echo get_template_directory_uri() ?>/js/picturefill.min.js"></script>
   <script src="<?php echo get_template_directory_uri() ?>/js/lightgallery-all.min.js"></script>
   <script src="<?php echo get_template_directory_uri() ?>/js/jquery.mousewheel.min.js"></script>
-
+  <?php wp_footer(); ?> 
   <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
 
   <script>
