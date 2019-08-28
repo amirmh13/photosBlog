@@ -29,3 +29,19 @@ msgstr ""
 #: inc/navbar.php:29
 msgid "Contact Us"
 msgstr ""
+
+#: index.php:44
+msgid "Rasouoifar's Art Gallery"
+msgstr ""
+
+#: index.php:44
+msgid "Have you ever tried to have a piece of heaven in your home? Next to your favorite parts of house as an especial and unique decoration? So it can be a hand-made tile! Fully hand-made art work which had been produced just for you and no one else in the world could have the exact tile which you have got! That's why it's special. Artists in Rasoulifar's art gallery do their best to create an exquisite hand-made tiles which can be lasted forever… If to know more about us keep going..."
+msgstr ""
+
+#: index.php:62
+msgid "What are hand-made tiles?"
+msgstr ""
+
+#: index.php:64
+msgid "Iran is a land of history and culture, as everyone knows it's not a slogan- it is the origin of hand crafts and has more than two hundred types of art and crafts. Seven-Colored tiles (Seven as a symbol of Perfection, but not necessarily using 7 colors) –known as Haft Rang Tiles- are one of the most eye-catching parts of Iranian art which dates back to old centuries and can be found in most of ancient monuments as the signs of long-lasted civilization of this country that overwhelm all visitors by delicate colors. The drawing of tiles demonstrate variety and value of religious and spiritual heritage of Iranian ancestors which had been represented by Persian traditional artists and architectures. As a unique piece of art, based on individual tastes and wishes, blank tiles and adobe are drawn, matched in color and pattern demanded by customers, architectures and decorators, each totally hand-made tile fired in a special type of kilns and then will be glazed. So, producing tiles from classical to ultra-modern ones are what we are able to do. Also for painted dishes glazes are carefully applied with a brush resulting in timeless, distinctive and sophisticated works of art. What are hand-made tiles good for? Most of seven-colored tiles are inspired by classical designs that can express both sophistication and natural simplicity, but they can cover all discriminating tastes. You can bring artistic inspiration from cultures around the world to your projects. They can be used as a decoration or piece of historical art work and maybe as a durable and memorable souvenir of Persia. If you want many different variations of hue within a specific color for a beautiful and unique decoration it can be a good choice to be selected and won't be found elsewhere..."
+msgstr ""

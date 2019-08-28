@@ -322,6 +322,6 @@
 		// checkForTopScrollIcon()
 	})
 
-	if( window.location.href.indexOf('/fa') != -1) $('body').addClass('persian')
+	// if( window.location.href.indexOf('/fa') != -1) $('body').addClass('persian')
 
  });

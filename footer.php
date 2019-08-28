@@ -1,10 +1,10 @@
 <div class="py-3 mb-5 mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 d-md-flex align-items-center" data-aos="fade">
-            <h2 class="text-black mb-5 mb-md-0 text-center text-md-left">Need a photographer?</h2>
-            <div class="ml-auto text-center text-md-left">
-              <a  href="<?php bloginfo('url')?>/contact-us" class="btn btn-danger py-3 px-5 rounded">Contact Me</a>
+          <div class="col-md-12 d-md-flex justify-content-between align-items-center" data-aos="fade">
+            <h2 class="text-black mb-5 mb-md-0 text-center text-md-left">To order products :</h2>
+            <div class="text-center text-md-left">
+              <a  href="<?php bloginfo('url')?>/contact-us" class="btn btn-danger py-3 px-5 rounded">Order Now</a>
             </div>
           </div>
         </div>
@@ -20,9 +20,11 @@
           <div class="col-lg-4">
             <div class="mb-5">
               <h3 class="footer-heading mb-4">About You</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque,
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque,
                 consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima
-                minus odio!</p>
+                minus odio!
+              </p>
             </div>
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
@@ -66,9 +68,10 @@
           </div>
 
         </div>
-        <div class="row pt-5 mt-5 text-center">
+        <div class="row pt-4 text-center">
           <div class="col-md-12">
             <p>
+              amir
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               <!-- Copyright &copy;<script data-cfasync="false"
                 src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>

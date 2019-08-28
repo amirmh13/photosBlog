@@ -1,7 +1,7 @@
 <header class="site-navbar py-3" role="banner">
 
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-between">
 
             <div class="col-6 col-xl-3">
                 <h1 class="mb-0">
@@ -14,7 +14,7 @@
             <div class="col-10 col-md-6 d-none d-xl-block">
                 <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
-                    <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                    <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block p-0">
                         <li class="<?php if(is_home()) echo 'active'?>">
                             <a href="<?php bloginfo('url')?>"><?php _e('Home','photosBlog') ?></a>
                         </li>

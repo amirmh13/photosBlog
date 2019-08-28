@@ -7,7 +7,7 @@ if (have_posts()) {
 }
 ?>
 
-<body>
+<body class="<?php if( get_locale() == 'fa_IR') echo 'persian' ?>">
 
     <div class="site-wrap">
 
