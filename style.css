@@ -459,7 +459,7 @@ a:hover {
 .site-navbar .site-navigation .site-menu>li>a {
   padding: 10px 10px;
   text-transform: uppercase;
-  color: red;
+  color: white;
   font-size: 15px;
   text-decoration: none !important;
 }
