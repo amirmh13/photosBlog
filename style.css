@@ -411,6 +411,8 @@ a:hover {
   position: fixed;
   width: 100%;
   transition: all 200ms linear;
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
 }
 
 .site-navbar.transparent {
@@ -1808,6 +1810,19 @@ a:hover {
   .site-block-half .image {
     height: 300px;
   }
+
+  .logo__navbar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .site-navbar {
+    padding: 0!important;
+  }
+
+  .scrolled-navbar {
+    padding: 0 !important;
+  }
 }
 
 .site-block-half .text {
@@ -1944,7 +1959,7 @@ a:hover {
 .scrolled-navbar {
   background-color: #315977;
   color: white;
-  padding: 1.3rem 0 !important;
+  padding: 1.3rem 0 ;
 }
 
 /* About */
