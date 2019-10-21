@@ -34,8 +34,8 @@
     </div> -->
 
     <div class="site-section">
-      <div class="container-fluid px-5">
-        <div class="row mb-3">
+      <div class="container-fluid">
+        <div class="row p-5 mb-3">
           <div class="col-md-6 p-0">
             <img src="<?php echo get_template_directory_uri() ?>/images/8.jpg" alt="Images" class="img-fluid main-pics">
           </div>
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="row mb-3">
+        <div class="row main-section-2 p-5">
           <div class="col-md-6 py-3 padding-<?php echo get_locale() ?>" data-aos="fade-up">
             <h3 class="text-black mb-3 mb-md-5"><?php _e('What are hand-made tiles?', 'photosBlog') ?></h3>
             <p class="text-justify">
@@ -68,7 +68,7 @@
           </div>
         </div>
 
-        <div class="row mb-3" data-aos="fade-up">
+        <div class="row p-5 mb-3" data-aos="fade-up">
           <div class="col-md-6 p-0">
             <img src="<?php echo get_template_directory_uri() ?>/images/IMG_9972.jpg" alt="Images" class="img-fluid main-pics">
           </div>
@@ -80,7 +80,7 @@
           </div>
         </div>
 
-        <div class="row mb-3" data-aos="fade-up">
+        <div class="row main-section-2 p-5" data-aos="fade-up">
           <div class="col-md-6 d-flex flex-column justify-content-center padding-<?php echo get_locale() ?> py-3">
             <h3 class="text-black mb-3 mb-md-5"><?php _e('About me…', 'photosBlog') ?></h3>
             <p class="text-justify">
@@ -98,7 +98,7 @@
     </div>
 
 
-    <div id="products" class="site-section" data-aos="fade">
+    <div id="products" class="site-section py-4" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12">
