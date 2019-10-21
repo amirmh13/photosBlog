@@ -15,7 +15,7 @@
 
 
     <footer class="site-footer">
-      <div class="container">
+      <div class="container px-5 px-md-0">
         <div class="row">
           <div class="col-lg-4">
               <h3 class="footer-heading mb-4"><?php _e('About Us', 'photosBlog') ?></h3>
@@ -64,18 +64,17 @@
           </div>
 
         </div>
-        <div class="row text-center">
+        <div class="row text-center mt-5">
           <div class="col-md-12">
             <p>
-              amir
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              <!-- Copyright &copy;<script data-cfasync="false"
-                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <!-- Design By  -->
+              Rasoulifar Art Gallery
+              Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
-              </script> All rights reserved | This template is made with <i class="icon-heart text-danger"
-                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </script> All rights reserved | This website is made with <i class="icon-heart text-danger"
+                aria-hidden="true"></i> by <a href="http://sarooj.org" target="_blank">Sarooj.org</a>
+              
             </p>
           </div>
 

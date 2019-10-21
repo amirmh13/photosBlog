@@ -119,6 +119,10 @@ a:hover {
   background: #000 !important;
 }
 
+.site-wrap {
+  background-color: #fff9e7;
+}
+
 .site-wrap:before {
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
@@ -210,7 +214,7 @@ a:hover {
 }
 
 .site-section-heading {
-  color: #000;
+  color: rgb(255, 255, 255);
   position: relative;
   font-size: 2.5rem;
 }
@@ -242,7 +246,7 @@ a:hover {
   position: absolute;
   width: 100px;
   height: 1px;
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 
 .border-top {
@@ -409,10 +413,11 @@ a:hover {
   margin-bottom: 0px;
   z-index: 99;
   position: fixed;
+  background-color: #011525;
   width: 100%;
   transition: all 200ms linear;
-  padding-top: 1rem!important;
-  padding-bottom: 1rem!important;
+  /* padding-top: 1rem !important; */
+  /* padding-bottom: 1rem !important; */
 }
 
 .site-navbar.transparent {
@@ -609,7 +614,7 @@ a:hover {
 }
 
 .site-menu li a {
-  font-weight : bold;
+  font-weight: bold;
 }
 
 .site-menu[data-class="social"] a {
@@ -626,7 +631,7 @@ a:hover {
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  background: #fcfcfc;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -1783,10 +1788,10 @@ a:hover {
 }
 
 .site-block-half {
-  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
   margin-bottom: 30px;
-  height: 245px;
+  /* height: 245px; */
 }
 
 .site-block-half .image,
@@ -1804,12 +1809,15 @@ a:hover {
 
 .site-block-half .image {
   background-size: cover;
+  border-radius: 50%;
+  height: 215px;
+  width: 215px;
 }
 
 @media (max-width: 1199.98px) {
-  .site-block-half .image {
+  /* .site-block-half .image {
     height: 300px;
-  }
+  } */
 
   .logo__navbar {
     width: 50px;
@@ -1817,7 +1825,7 @@ a:hover {
   }
 
   .site-navbar {
-    padding: 0!important;
+    padding: 0 !important;
   }
 
   .scrolled-navbar {
@@ -1827,11 +1835,12 @@ a:hover {
 
 .site-block-half .text {
   padding: 30px;
+  color: white;
 }
 
 .site-block-half .text h3 {
   font-size: 20px;
-  color: #000;
+  color: rgb(231, 231, 231);
 }
 
 .image-gradient {
@@ -1957,9 +1966,11 @@ a:hover {
 }
 
 .scrolled-navbar {
-  background-color: #315977;
+  /* background-color: #315977; */
+  background-color: #011525;
   color: white;
-  padding: 1.3rem 0 ;
+  padding: .75rem 0;
+  border-bottom: 1px solid white;
 }
 
 /* About */
@@ -1980,4 +1991,12 @@ a:hover {
 
 .lg {
   direction: ltr;
+}
+
+.main-pics {
+  border-radius: 12px;
+}
+
+#products {
+  background-color: #384c5d;
 }
