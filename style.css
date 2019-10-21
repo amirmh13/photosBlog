@@ -21,6 +21,14 @@ li {
   text-align: right;
 }
 
+.menuburger {
+  text-align: right!important;
+}
+
+.persian .menuburger {
+  text-align: left!important;
+}
+
 .padding-fa_IR {
   padding-left: 3rem;
   padding-right: 0;

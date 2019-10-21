@@ -40,7 +40,7 @@
                 </nav>
             </div>
 
-            <div class="col-6 col-xl-2 text-right">
+            <div class="col-6 col-xl-2 menuburger">
                 <div class="d-none d-xl-inline-block">
                     <!-- <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                         <li>
