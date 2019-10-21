@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/aos.css">
 
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css?v=1571648016687">
 
 
   <?php wp_head() ?>
