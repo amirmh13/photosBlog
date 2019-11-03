@@ -1,20 +1,3 @@
-<div class="py-3 mb-5 mt-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 d-md-flex justify-content-between align-items-center" data-aos="fade">
-        <h2 class="text-black mb-5 mb-md-0 text-center text-md-left"><?php _e('To order products', 'photosBlog') ?>:
-        </h2>
-        <div class="text-center text-md-left">
-          <a href="<?php bloginfo('url')?>/contact-us"
-            class="btn btn-danger py-3 px-5 rounded"><?php _e('Order Now', 'photosBlog') ?></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
 
 <footer class="site-footer">
   <div class="container px-5 px-md-0">
@@ -50,52 +33,7 @@
 
         </span>
       </div>
-      <!-- <div class="col-lg-4 mb-lg-0">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="footer-heading mb-4"><?php _e('Navigations', 'photosBlog') ?></h3>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <ul class="list-unstyled p-0">
-              <li><a href="<?php bloginfo('url')?>"><?php _e('Home', 'photosBlog') ?></a></li>
-              <li><a
-                  href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/products'; else echo '/محصولات'; ?>"><?php _e('Products', 'photosBlog') ?></a>
-              </li>
-              <li><a
-                  href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/about-us'; else echo '/درباره-ما';?>"><?php _e('About Us', 'photosBlog') ?></a>
-              </li>
-              <li><a
-                  href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/contact-us'; else echo '/تماس-با-ما';?>"><?php _e('Contact Us', 'photosBlog') ?></a>
-              </li>
-            </ul>
-          </div>
-         
-        </div>
-
-
-      </div>
-
-      <div class="col-lg-4 mb-lg-0">
-        <h3 class="footer-heading mb-4"><?php _e('Follow Us', 'photosBlog') ?></h3>
-
-        <div>
-          <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-          <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
-          <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-          <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-        </div>
-        <p>
-          <div class="footer-title"><?php _e('Address', 'photosBlog') ?>:</div>
-          <p>tehran</p>
-          <div class="footer-title"><?php _e("Email", 'photosBlog') ?>:</div>
-          <a href="mailto:handmadetiles95@gmail.com">handmadetiles95@gmail.com</a>
-          <div class="footer-title"><?php _e("Phone", 'photosBlog') ?>:</div>
-          <a href="tel:555">5555</a>
-        </p>
-
-
-
-      </div> -->
+      
 
     </div>
     <div class="col-md-12 text-center mt-3">
