@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
 
-            <div class="col-6 col-xl-3">
+            <div class="col-6 col-xl-2">
                 <h1 class="mb-0">
                     <a href="<?php bloginfo('url')?>" class="text-white h2 mb-0">
                         <img class="logo__navbar" height="85px" width="85px" src="<?php echo get_template_directory_uri() ?>/images/logo.png"

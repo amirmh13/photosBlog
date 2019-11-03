@@ -223,7 +223,7 @@ a:hover {
 }
 
 .site-section-heading {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   position: relative;
   font-size: 2.5rem;
 }
@@ -255,7 +255,7 @@ a:hover {
   position: absolute;
   width: 100px;
   height: 1px;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
 }
 
 .border-top {
@@ -2006,20 +2006,20 @@ a:hover {
 }
 
 .main-pics {
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
-#products {
+/* #products {
   background-color: #384c5d;
-}
+} */
 
 .footer-title {
   font-size: 20px;
   color: #d7d7d7;
 }
 
-.main-section-2 {
-  background-color: #e8ebec;
+.section-2 {
+  margin-top: 200px;
 }
 
 .swiper-container {
@@ -2060,4 +2060,100 @@ a:hover {
 .persian .list-unstyled li:not(:last-child) {
   border-right: unset;
   border-left: 1px solid;
+}
+
+.main-section p {
+  font-size: 18px;
+}
+
+.section-1 .img-container {
+  height: calc(125px - 3rem);
+}
+
+.bg-blue {
+  background-color: #263c4a;
+}
+
+.section-2 img {
+  position: relative;
+  left: 30px;
+  bottom: 50px;
+}
+
+.persian .section-2 img {
+  left: unset;
+  right: 30px;
+}
+
+.section-3 {
+  margin: 80px 0;
+  position: relative;
+  left: -20px;
+  align-items: center;
+}
+
+.persian .section-3 {
+  left: unset;
+  right: -20px;
+}
+
+.section-3 img {
+  position: relative;
+  bottom: 50px;
+  height: 424px;
+}
+
+.section-3-img-container {
+  height: 327px;
+}
+
+.section-4 img {
+  position: relative;
+  left: 40px;
+}
+
+.persian .section-4 img {
+  left: unset;
+  right: 40px;
+}
+
+@media (max-width: 385px) {
+  .section-1 img {
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .section-2 img {
+    position: relative;
+    left: unset;
+    bottom: 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .section-1 img {
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .section-2 img {
+    position: relative;
+    left: unset;
+    bottom: 50px;
+    height: 400px;
+  }
+
+  .section-3 {
+    position: static;
+  }
+
+  .section-3 img {
+    bottom: 0px;
+  }
+
+  .section-4 img {
+    width: 400px;
+    left: unset;
+  }
 }
