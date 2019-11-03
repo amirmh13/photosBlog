@@ -8,7 +8,7 @@
 
  	"use strict";
 
- 	
+
 
 
  	var siteMenuClone = function () {
@@ -238,62 +238,84 @@
  	siteDatePicker();
 
  	var swiperSetting = function () {
- 		var mySwiper = new Swiper('.swiper-container', {
- 			// Optional parameters
- 			// direction: 'horizontal',
- 			// loop: true,
+ 		// var mySwiper = new Swiper('.swiper-container', {
+ 		// 	// Optional parameters
+ 		// 	// direction: 'horizontal',
+ 		// 	// loop: true,
 
- 			// If we need pagination
- 			pagination: {
- 				el: '.swiper-pagination',
- 			},
+ 		// 	// If we need pagination
+ 		// 	pagination: {
+ 		// 		el: '.swiper-pagination',
+ 		// 	},
 
- 			// Navigation arrows
- 			navigation: {
- 				nextEl: '.swiper-button-next',
- 				prevEl: '.swiper-button-prev',
- 			},
- 			mousewheel: {
- 				invert: false,
- 				forceToAxis: true,
- 				releaseOnEdges: true,
- 			},
+ 		// 	// Navigation arrows
+ 		// 	navigation: {
+ 		// 		nextEl: '.swiper-button-next',
+ 		// 		prevEl: '.swiper-button-prev',
+ 		// 	},
+ 		// 	mousewheel: {
+ 		// 		invert: false,
+ 		// 		forceToAxis: true,
+ 		// 		releaseOnEdges: true,
+ 		// 	},
 
- 			// direction: 'vertical',
- 			freeMode: true,
- 			// slidesPerView: 'auto',
- 			spaceBetween: 30,
- 			mousewheel: true,
- 			pagination: {
- 				el: '.swiper-pagination',
- 				clickable: true,
- 			},
+ 		// 	// direction: 'vertical',
+ 		// 	freeMode: true,
+ 		// 	// slidesPerView: 'auto',
+ 		// 	spaceBetween: 30,
+ 		// 	mousewheel: true,
+ 		// 	pagination: {
+ 		// 		el: '.swiper-pagination',
+ 		// 		clickable: true,
+ 		// 	},
 
- 			// And if we need scrollbar
- 			// scrollbar: {
- 			//   el: '.swiper-scrollbar',
- 			// },
+ 		// 	// And if we need scrollbar
+ 		// 	// scrollbar: {
+ 		// 	//   el: '.swiper-scrollbar',
+ 		// 	// },
 
- 			slidesPerView: 3,
- 			breakpoints: {
- 				668: {
- 					slidesPerView: 1
- 				},
- 				1024: {
- 					slidesPerView: 2
- 				}
- 			},
- 			// paginationClickable: false,
- 			spaceBetween: 20,
- 			// freeMode: true,
- 			// grabCursor: true,
- 			// mousewheelControl: true
+ 		// 	slidesPerView: 3,
+ 		// 	breakpoints: {
+ 		// 		668: {
+ 		// 			slidesPerView: 1
+ 		// 		},
+ 		// 		1024: {
+ 		// 			slidesPerView: 2
+ 		// 		}
+ 		// 	},
+ 		// 	// paginationClickable: false,
+ 		// 	spaceBetween: 20,
+ 		// 	// freeMode: true,
+ 		// 	// grabCursor: true,
+ 		// 	// mousewheelControl: true
 
- 		})
+		//  })
+		 
+		 var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 1,
+			loop: true,
+			autoplay: {
+				delay: 5000,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			mousewheel: {
+				invert: false,
+				forceToAxis: true,
+				releaseOnEdges: true,
+			},
+			keyboard: true,
+		});
  	}
-	 swiperSetting();
-	 
-	 // checkForTopScrollIcon = function () {
+ 	swiperSetting();
+
+ 	// checkForTopScrollIcon = function () {
  	// 	var scroll = $(window).scrollTop()
  	// 	if (scroll >= $(window).height() / 2 && $('.scroll-to-top').hasClass('scroll-to-top__hide')) {
  	// 		$('.scroll-to-top').removeClass('scroll-to-top__hide')
@@ -303,25 +325,26 @@
  	// }
  	var changeStyleByScroll = function () {
 
-		var scroll = $(window).scrollTop()
-		if (scroll > 0) {
-			$('.site-navbar').addClass('scrolled-navbar')
-			// $('.index-site-header nav ul').addClass('no-margin')
-		} else {
-			$('.site-navbar').removeClass('scrolled-navbar')
-			// $('.index-site-header nav ul').removeClass('no-margin')
-		}
+ 		var scroll = $(window).scrollTop()
+ 		if (scroll > 0) {
+ 			$('.site-navbar').addClass('scrolled-navbar')
+ 			// $('.index-site-header nav ul').addClass('no-margin')
+ 		} else {
+ 			$('.site-navbar').removeClass('scrolled-navbar')
+ 			// $('.index-site-header nav ul').removeClass('no-margin')
+ 		}
 
-	}
+ 	}
 
-	changeStyleByScroll();
-	// checkForTopScrollIcon()
+ 	changeStyleByScroll();
+ 	// checkForTopScrollIcon()
 
-	$(window).scroll(function () {
-		changeStyleByScroll()
-		// checkForTopScrollIcon()
-	})
+ 	$(window).scroll(function () {
+ 		changeStyleByScroll()
+ 		// checkForTopScrollIcon()
+ 	})
 
-	// if( window.location.href.indexOf('/fa') != -1) $('body').addClass('persian')
+ 	// if( window.location.href.indexOf('/fa') != -1) $('body').addClass('persian')
+ 	
 
  });

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-28 15:51+0430\n"
-"PO-Revision-Date: 2019-08-28 15:51+0430\n"
+"POT-Creation-Date: 2019-11-03 13:45+0330\n"
+"PO-Revision-Date: 2019-11-03 13:45+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,19 +22,23 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
+#: contact.php:19 footer.php:47 inc/navbar.php:34
+msgid "Contact Us"
+msgstr "تماس با ما"
+
 #: footer.php:5
 msgid "To order products"
 msgstr "برای سفارش محصولات"
 
-#: footer.php:7
+#: footer.php:9
 msgid "Order Now"
 msgstr "کلیک کنید"
 
-#: footer.php:21 footer.php:35 inc/navbar.php:26
-msgid "About Us"
-msgstr "درباره ما"
+#: footer.php:27 index.php:17
+msgid "Rasouoifar's Art Gallery"
+msgstr "گالری رسولیفر"
 
-#: footer.php:23 index.php:170 index.php:178 index.php:185
+#: footer.php:29 index.php:185 index.php:193 index.php:200
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
 "tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra "
@@ -44,25 +48,37 @@ msgstr ""
 "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از "
 "طراحان گرافیک است. "
 
-#: footer.php:29
+#: footer.php:35
 msgid "Navigations"
 msgstr "منوی اصلی"
 
-#: footer.php:33 inc/navbar.php:19
+#: footer.php:39 inc/navbar.php:19
 msgid "Home"
 msgstr "صفحه اصلی"
 
-#: footer.php:34 inc/navbar.php:23 index.php:105 services.php:29
+#: footer.php:41 inc/navbar.php:25 index.php:120 services.php:19
 msgid "Products"
 msgstr "محصولات"
 
-#: footer.php:36 inc/navbar.php:29
-msgid "Contact Us"
-msgstr "تماس با ما"
+#: footer.php:44 inc/navbar.php:30
+msgid "About Us"
+msgstr "درباره ما"
 
-#: footer.php:53
+#: footer.php:65
 msgid "Follow Us"
 msgstr "ما را دنبال کنید"
+
+#: footer.php:74
+msgid "Address"
+msgstr "آدرس"
+
+#: footer.php:76
+msgid "Email"
+msgstr "ایمیل"
+
+#: footer.php:78
+msgid "Phone"
+msgstr "تلفن"
 
 #: functions.php:21
 msgid "MyPhoto"
@@ -72,11 +88,11 @@ msgstr ""
 msgid "myPhoto"
 msgstr ""
 
-#: index.php:26
-msgid "Rasouoifar's Art Gallery"
+#: index.php:44
+msgid "Rasouoifar Art Gallery"
 msgstr "گالری رسولیفر"
 
-#: index.php:44
+#: index.php:58
 msgid ""
 "Have you ever tried to have a piece of heaven in your home? Next to your "
 "favorite parts of house as an especial and unique decoration? So it can be a "
@@ -94,11 +110,11 @@ msgstr ""
 "کنند تا کاشی هایی با دست ساخته نفیس بسازیم که می تواند برای همیشه ادامه "
 "یابد ... اگر اطلاعات بیشتری در مورد ما بدانید ادامه دهید ..."
 
-#: index.php:60
+#: index.php:74
 msgid "What are hand-made tiles?"
 msgstr "کاشی های دست ساز چیست؟"
 
-#: index.php:62
+#: index.php:76
 msgid ""
 "Iran is a land of history and culture, as everyone knows it's not a slogan- "
 "it is the origin of hand crafts and has more than two hundred types of art "
@@ -150,11 +166,11 @@ msgstr ""
 "رنگ در یک رنگ خاص برای یک دکوراسیون زیبا و منحصر به فرد وجود داشته باشد ، می "
 "تواند انتخاب مناسبی باشد و در جای دیگری یافت نشود ... "
 
-#: index.php:76
+#: index.php:91
 msgid "The artists…"
 msgstr "هنرمندان… "
 
-#: index.php:78
+#: index.php:93
 msgid ""
 "More than 10 trained craft-women gathered together to create an exquisite "
 "line of painted tiles. Their designs are inspired by classical pattern or "
@@ -170,11 +186,11 @@ msgstr ""
 "عنوان یک بشقاب پذیرایی از غذا نیز مورد استفاده قرار گیرند. تا آنجا که ما "
 "لعاب داریم ، آنها قابل شستشو هستند و در برابر گرما مقاومت می کنند."
 
-#: index.php:85
+#: index.php:100
 msgid "About me…"
 msgstr "درمورد من…"
 
-#: index.php:87
+#: index.php:102
 msgid ""
 "My name is Maryam Rasoulifar. I am the gallerist of Rasoulifar Art Gallery. "
 "I am an artist too. I studied Graphic as a student in school and University, "
@@ -221,11 +237,11 @@ msgstr ""
 "تهران : 25-31 آگوست 2018) دستیابی به مجوز کیفیت سازمان میراث فرهنگی ، صنایع "
 "دستی و گردشگری در سال 2018"
 
-#: index.php:114
+#: index.php:129
 msgid "Category 1"
 msgstr "دسته بندی ۱"
 
-#: index.php:116 index.php:126 index.php:139 index.php:150
+#: index.php:131 index.php:141 index.php:154 index.php:165
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
 "tempor incididunt"
@@ -233,27 +249,27 @@ msgstr ""
 "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از "
 "طراحان گرافیک است. "
 
-#: index.php:124
+#: index.php:139
 msgid "Category 2"
 msgstr "دسته بندی۲"
 
-#: index.php:137
+#: index.php:152
 msgid "Category 3"
 msgstr "دسته بندی ۳"
 
-#: index.php:148
+#: index.php:163
 msgid "Category 4"
 msgstr "دسته بندی ۴"
 
-#: services.php:51
+#: services.php:41
 msgid "Dish sample"
 msgstr "نمونه کارهای بشقاب"
 
-#: services.php:62
+#: services.php:52
 msgid "Carpet sample"
 msgstr "نمونه کارهای فرش"
 
-#: services.php:73
+#: services.php:63
 msgid "Restaurent sample"
 msgstr "نمونه کارهای رستوران"
 

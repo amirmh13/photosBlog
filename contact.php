@@ -8,17 +8,7 @@
   <div class="site-wrap">
 
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-    <?php include('/inc/navbar.php') ?>
+   
 
     <div class="site-blocks-cover overlay inner-page-cover"
       style="background-image: url('<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');"

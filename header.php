@@ -25,10 +25,22 @@
 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/aos.css">
 
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css?v=1571653932163">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css?v=<?php echo time(); ?>">
 
 
   <?php wp_head() ?>
 
 
 </head>
+
+<div class="site-mobile-menu">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>
+
+
+<?php include('inc/navbar.php') ?>

@@ -2,22 +2,13 @@
 
 <body class="<?php if( get_locale() == 'fa_IR') echo 'persian' ?>">
 
+
   <div class="site-wrap">
 
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
 
 
-    <?php include('inc/navbar.php') ?>
-
-    <div class="site-blocks-cover overlay inner-page-cover"
+    <!-- <div class="site-blocks-cover overlay inner-page-cover"
       style="background-image: url('<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');"
       data-stellar-background-ratio="0.5">
       <div class="container">
@@ -27,7 +18,30 @@
           </div>
         </div>
       </div>
+    </div> -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');" width="100%"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="<?php echo get_template_directory_uri() ?>/images/IMG_0001.jpg');" width="100%"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="<?php echo get_template_directory_uri() ?>/images/top-section-bg.jpg');" width="100%"
+            alt="">
+        </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      
     </div>
+    <h1 class="px-5 text-center text-white mb-0"><?php _e("Rasouoifar Art Gallery", 'photosBlog') ?></h1>
 
     <!-- <div class="site-block-profile-pic" data-aos="fade" data-aos-delay="200">
       <a href="about.html"><img src="<?php echo get_template_directory_uri() ?>/images/IMG_0002.JPG" alt="Image"></a>
@@ -70,7 +84,8 @@
 
         <div class="row p-5 mb-3" data-aos="fade-up">
           <div class="col-md-6 p-0">
-            <img src="<?php echo get_template_directory_uri() ?>/images/IMG_9972.jpg" alt="Images" class="img-fluid main-pics">
+            <img src="<?php echo get_template_directory_uri() ?>/images/IMG_9972.jpg" alt="Images"
+              class="img-fluid main-pics">
           </div>
           <div class="col-md-6 d-flex flex-column justify-content-center px-5 py-3">
             <h3 class="text-black mb-3 mb-md-5"><?php _e('The artists…', 'photosBlog') ?></h3>

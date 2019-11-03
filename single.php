@@ -4,7 +4,7 @@
   <div class="site-wrap">
 
     
-    <div class="site-mobile-menu">
+    <!-- <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
           <span class="icon-close2 js-menu-toggle"></span>
@@ -78,7 +78,7 @@
         </div>
       </div>
       
-    </header>
+    </header> -->
 
     <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('<?php echo get_template_directory_uri() ?>/images/hero_bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="container">
