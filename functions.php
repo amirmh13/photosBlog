@@ -18,9 +18,34 @@ function my_theme_setup(){
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
 function theme_slug_widgets_init() {
     register_sidebar( array(
-        'name' => __( 'MyPhoto', 'theme-slug' ),
-        'id' => 'myPhoto',
-        'description' => __('myPhoto')
+        'name' => __( 'langSwitcher', 'theme-slug' ),
+        'id' => 'langSwitcher',
+        'description' => __('langSwitcher')
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'order-form-en', 'theme-slug' ),
+        'id' => 'order-form-en',
+        'description' => __('order-form')
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'order-form-fa', 'theme-slug' ),
+        'id' => 'order-form-fa',
+        'description' => __('order-form')
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'contact-us-form-fa', 'theme-slug' ),
+        'id' => 'contact-us-form-fa',
+        'description' => __('contact-us-form')
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'contact-us-form-en', 'theme-slug' ),
+        'id' => 'contact-us-form-en',
+        'description' => __('contact-us-form')
     ) );
 }
+
 ?>

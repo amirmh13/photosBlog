@@ -410,11 +410,11 @@ a:hover {
 
 /* Navbar */
 
-#polylang-2 ul {
+.widget ul {
   display: flex;
 }
 
-#polylang-2 ul li {
+.widget ul li {
   margin: 0 5px;
 }
 
@@ -2074,6 +2074,10 @@ a:hover {
   background-color: #263c4a;
 }
 
+.contact-us-links a {
+  color: #47a6e2;
+}
+
 .section-2 img {
   position: relative;
   left: 30px;
@@ -2115,6 +2119,24 @@ a:hover {
 .persian .section-4 img {
   left: unset;
   right: 40px;
+}
+
+.wpcf7 {
+  direction: ltr;
+}
+
+.persian .wpcf7 {
+  direction: rtl;
+}
+
+.btn-blue {
+  background-color: #263c4a!important;
+  border-color: #263c4a;
+}
+
+.btn-blue:hover {
+  background-color: #3c5e74!important;
+  border-color: #3c5e74;
 }
 
 @media (max-width: 385px) {

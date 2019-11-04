@@ -53,7 +53,7 @@
           </div>
 
           <div class="img-container col-md-12 text-center p-0">
-            <img class="position-relative main-pics" src="<?php echo get_template_directory_uri() ?>/images/8.jpg"
+            <img class="position-relative main-pics" src="<?php echo get_template_directory_uri() ?>/images/main-pic-1.jpg"
               alt="Images" height="250px" class="main-pics">
           </div>
         </div>
@@ -63,7 +63,7 @@
         <div class="row justify-content-between section-2 bg-white p-2 p-lg-5">
           <div class="col-md-3 bg-blue d-flex justify-content-center align-items-center align-items-lg-end p-0"
             data-aos="fade-up">
-            <img src="<?php echo get_template_directory_uri() ?>/images/9.jpg" alt="Images" class="img-fluid main-pics">
+            <img src="<?php echo get_template_directory_uri() ?>/images/main-pic-4.jpg" alt="Images" class="img-fluid main-pics">
           </div>
 
           <div class="col-md-8 py-3" data-aos="fade-up">
@@ -87,14 +87,14 @@
           </div>
 
           <div class="col-md-3 d-flex section-3-img-container justify-content-center justify-content-md-end p-0">
-            <img src="<?php echo get_template_directory_uri() ?>/images/IMG_9972.jpg" alt="Images"
+            <img src="<?php echo get_template_directory_uri() ?>/images/main-pic-2.jpg" alt="Images"
               class="img-fluid main-pics">
           </div>
         </div>
 
         <div class="row justify-content-between section-4 bg-white py-2 py-lg-5" data-aos="fade-up">
           <div class="col-md-4 bg-blue d-flex justify-content-center align-items-center p-0">
-            <img src="<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-37.jpg" alt="Images"
+            <img src="<?php echo get_template_directory_uri() ?>/images/main-pic-3.jpg" alt="Images"
               class="img-fluid main-pics">
           </div>
 
@@ -113,7 +113,7 @@
 
     <?php include('inc/products.php') ?>
 
-    <?php include('inc/happy-users.php') ?>
+    <?php include('inc/video.php') ?>
 
 
     <?php include('inc/order.php') ?>

@@ -25,10 +25,10 @@
 
 
           <div class="text-center">
-            <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            <a href="https://www.facebook.com/rasoulifar.tiles" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+            <a href="http://t.me/rasoulifar_art_gallery" target="_blank" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
+            <a href="https://www.instagram.com/rasoulifar_art_gallery" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+            <!-- <a href="#" target="_blank" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
           </div>
 
         </span>

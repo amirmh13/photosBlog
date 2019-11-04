@@ -58,7 +58,7 @@
                     </ul> -->
                     <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block p-0">
                         <li>
-                            <?php dynamic_sidebar('myPhoto') ?>
+                            <?php dynamic_sidebar('langSwitcher') ?>
                         </li>
 
                     </ul>
