@@ -21,7 +21,7 @@ if (have_posts()) {
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-7 text-center" data-aos="fade-up">
                         <h1><?php the_title();?></h1>
-                        <p class="caption">36 Pictures / Nature</p>
+                        <!-- <p class="caption">36 Pictures / Nature</p> -->
                     </div>
                 </div>
             </div>

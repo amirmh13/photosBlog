@@ -4,17 +4,6 @@
 
 
   <div class="site-wrap">
-    <!-- <div class="site-blocks-cover overlay inner-page-cover"
-      style="background-image: url('<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');"
-      data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 text-center" data-aos="fade-up">
-            <h1><?php _e("Rasouoifar's Art Gallery", 'photosBlog') ?></h1>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -53,8 +42,9 @@
           </div>
 
           <div class="img-container col-md-12 text-center p-0">
-            <img class="position-relative main-pics" src="<?php echo get_template_directory_uri() ?>/images/main-pic-1.jpg"
-              alt="Images" height="250px" class="main-pics">
+            <img class="position-relative main-pics"
+              src="<?php echo get_template_directory_uri() ?>/images/main-pic-1.jpg" alt="Images" height="250px"
+              class="main-pics">
           </div>
         </div>
 
@@ -63,7 +53,8 @@
         <div class="row justify-content-between section-2 bg-white p-2 p-lg-5">
           <div class="col-md-3 bg-blue d-flex justify-content-center align-items-center align-items-lg-end p-0"
             data-aos="fade-up">
-            <img src="<?php echo get_template_directory_uri() ?>/images/main-pic-4.jpg" alt="Images" class="img-fluid main-pics">
+            <img src="<?php echo get_template_directory_uri() ?>/images/main-pic-4.jpg" alt="Images"
+              class="img-fluid main-pics">
           </div>
 
           <div class="col-md-8 py-3" data-aos="fade-up">

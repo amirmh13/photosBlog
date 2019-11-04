@@ -8,6 +8,7 @@ body {
   color: #4d4d4d;
   font-weight: 300;
   font-size: 1rem;
+  transition: all 200ms ease-in-out;
   scroll-behavior: smooth;
 }
 
@@ -2139,7 +2140,7 @@ a:hover {
   border-color: #3c5e74;
 }
 
-@media (max-width: 385px) {
+/* @media (max-width: 385px) {
   .section-1 img {
     width: 300px;
     object-fit: cover;
@@ -2151,7 +2152,7 @@ a:hover {
     bottom: 50px;
   }
 
-}
+} */
 
 @media (max-width: 768px) {
   .section-1 img {
@@ -2161,8 +2162,9 @@ a:hover {
 
   .section-2 img {
     position: relative;
-    left: unset;
-    bottom: 50px;
+    left: unset!important;
+    right: unset!important;
+    bottom: 20px;
     height: 400px;
   }
 
@@ -2175,7 +2177,8 @@ a:hover {
   }
 
   .section-4 img {
-    width: 400px;
-    left: unset;
+    width: 400px!important;
+    left: unset!important;
+    right: unset!important;
   }
 }

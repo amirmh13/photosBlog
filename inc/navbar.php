@@ -20,8 +20,7 @@
                         </li>
 
                         <li class="<?php if(is_page_template( 'services.php' )) echo 'active'?>">
-                            <a
-                                href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/products'; else echo '/محصولات'; ?>">
+                            <a href="#products">
                                 <?php _e('Products','photosBlog') ?>
                             </a>
                         </li>
@@ -42,20 +41,7 @@
 
             <div class="col-6 col-xl-2 menuburger">
                 <div class="d-none d-xl-inline-block">
-                    <!-- <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
-                        <li>
-                            <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
-                        </li>
-                    </ul> -->
+          
                     <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block p-0">
                         <li>
                             <?php dynamic_sidebar('langSwitcher') ?>
