@@ -65,7 +65,7 @@
 
       <div class="col-md-6 d-flex flex-wrap p-0">
         <div class="col-md-12 px-1">
-          <a class="image-gradient mb-2"
+          <a class="image-gradient mb-1 mb-lg-2"
             href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/dishes'; else echo '/نمونه-کارهای-بشقاب'; ?>">
             <figure class="figure-lg mb-0">
               <img src="<?php echo get_template_directory_uri() ?>/images/kashi.jpg" alt="" class="img-fluid">
@@ -86,9 +86,9 @@
     <div class="row">
       <div class="col-md-6 d-flex flex-wrap p-0 ">
         <div class="col-md-12 px-1">
-          <a class="image-gradient m-0"
+          <a class="image-gradient mb-1"
             href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/dishes'; else echo '/نمونه-کارهای-بشقاب'; ?>">
-            <figure class="figure-sm">
+            <figure class="figure-sm mb-0">
               <img src="<?php echo get_template_directory_uri() ?>/images/top-section-bg.jpg" alt="" class="img-fluid">
             </figure>
             <!-- <div class="text">
@@ -101,9 +101,9 @@
 
       <div class="col-md-6 d-flex flex-wrap p-0">
         <div class="col-md-6 px-1">
-          <a class="image-gradient"
+          <a class="image-gradient mb-1"
             href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/dishes'; else echo '/نمونه-کارهای-بشقاب'; ?>">
-            <figure class="figure-sm">
+            <figure class="figure-sm mb-0">
               <img src="<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg" alt="" class="img-fluid">
             </figure>
             <!-- <div class="text">
@@ -114,9 +114,9 @@
         </div>
 
         <div class="col-md-6 px-1">
-          <a class="image-gradient"
+          <a class="image-gradient mb-1"
             href="<?php echo home_url( $wp->request ); if (get_locale() == 'en_US') echo '/dishes'; else echo '/نمونه-کارهای-بشقاب'; ?>">
-            <figure class="figure-sm">
+            <figure class="figure-sm mb-0">
               <img src="<?php echo get_template_directory_uri() ?>/images/carpet.jpg" alt="" class="img-fluid">
             </figure>
             <!-- <div class="text">
