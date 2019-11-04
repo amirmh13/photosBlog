@@ -20,7 +20,7 @@
                         </li>
 
                         <li class="<?php if(is_page_template( 'services.php' )) echo 'active'?>">
-                            <a href="#products">
+                            <a href="<?php bloginfo('url'); ?>#products">
                                 <?php _e('Products','photosBlog') ?>
                             </a>
                         </li>

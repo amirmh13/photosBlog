@@ -10,10 +10,10 @@
           </a>
           <h3 class="footer-heading text-center mb-4"><?php _e("Rasouoifar's Art Gallery", 'photosBlog') ?></h3>
 
-          <ul class="list-unstyled d-flex p-0">
+          <ul class="list-unstyled d-flex flex-wrap justify-content-center p-0">
             <li><a href="<?php bloginfo('url')?>"><?php _e('Home', 'photosBlog') ?></a></li>
             <li><a
-                href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/products'; else echo '/محصولات'; ?>"><?php _e('Products', 'photosBlog') ?></a>
+                href="<?php bloginfo('url'); ?>#products"><?php _e('Products', 'photosBlog') ?></a>
             </li>
             <li><a
                 href="<?php bloginfo('url'); if (get_locale() == 'en_US') echo '/about-us'; else echo '/درباره-ما';?>"><?php _e('About Us', 'photosBlog') ?></a>

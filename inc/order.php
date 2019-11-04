@@ -7,7 +7,7 @@
 
 
 
-            <div class="col-6 d-flex flex-wrap">
+            <div class="col-sm-9 col-lg-6 d-flex flex-wrap">
                 <?php if( get_locale() == 'fa_IR') dynamic_sidebar('order-form-fa');else dynamic_sidebar('order-form-en') ?>
             </div>
 
