@@ -11,9 +11,6 @@ if (have_posts()) {
 
     <div class="site-wrap">
 
-
-      
-
         <div class="site-blocks-cover overlay inner-page-cover"
             style="background-image: url('<?php echo get_template_directory_uri() ?>/images/photo_2019-08-26_17-52-55.jpg');"
             data-stellar-background-ratio="0.5">
@@ -29,7 +26,7 @@ if (have_posts()) {
 
 
 
-        <div class="site-section" data-aos="fade">
+        <div class="site-section py-3 py-lg-5" data-aos="fade">
             <div class="container">
 
                 <div class="row no-gutters" id="lightgallery">
